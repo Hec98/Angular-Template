@@ -11,6 +11,7 @@ import { CardsComponent } from './components/cards/cards.component';
 import { TablesComponent } from './components/tables/tables.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { FormsComponent } from './components/forms/forms.component';
+import { DisplayComponent } from './components/display/display.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FormsComponent } from './components/forms/forms.component';
     CardsComponent,
     TablesComponent,
     ModalComponent,
-    FormsComponent
+    FormsComponent,
+    DisplayComponent
   ],
   imports: [
     BrowserModule,
