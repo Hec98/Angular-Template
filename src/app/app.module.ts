@@ -12,6 +12,7 @@ import { TablesComponent } from './components/tables/tables.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { FormsComponent } from './components/forms/forms.component';
 import { DisplayComponent } from './components/display/display.component';
+import { GridsComponent } from './components/grids/grids.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DisplayComponent } from './components/display/display.component';
     TablesComponent,
     ModalComponent,
     FormsComponent,
-    DisplayComponent
+    DisplayComponent,
+    GridsComponent
   ],
   imports: [
     BrowserModule,

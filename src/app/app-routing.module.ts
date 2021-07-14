@@ -4,6 +4,7 @@ import { AboutComponent } from './components/about/about.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { DisplayComponent } from './components/display/display.component';
 import { FormsComponent } from './components/forms/forms.component';
+import { GridsComponent } from './components/grids/grids.component';
 import { HomeComponent } from './components/home/home.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { TablesComponent } from './components/tables/tables.component';
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'forms', component: FormsComponent },
   { path: 'modal', component: ModalComponent },
   { path: 'tables', component: TablesComponent },
+  { path: 'grids', component: GridsComponent },
   { path: 'about', component: AboutComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home'}
 ];
